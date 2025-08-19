@@ -1,0 +1,16 @@
+print("---------------Sistema de Recomendação de Ingestão de Água-----------")
+# Entrada de Dados
+nome = input("digite seu nome: ")
+numero = int(input("digite seu núemero de whatsapp: "))
+peso = float(input("digite seu peso em Kg: "))
+altura = float(input("digite sua altura em M: "))
+# Processamento
+imc = peso / (altura ** 2)
+agua = (peso * 35) / 1000
+# Saída
+print(f"nome: {nome}")
+print(f"numero: {numero}")
+print(f"peso: {peso}")
+print(f"altura:{altura}")
+print(f"seu imc é :{imc:.2f}")
+print(f"agua recomendada por dia em litros: {agua:.2f}")
